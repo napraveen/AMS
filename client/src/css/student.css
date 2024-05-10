@@ -1,0 +1,119 @@
+.student-dashboard-container {
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.student-dashboard-attendance {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 80vw;
+  height: 30vh;
+  /* background-color: yellow; */
+}
+
+.student-dashboard-present-days {
+  /* background-color: rgb(235, 31, 31); */
+  background-color: rgb(200, 250, 206);
+  border: 2px solid black;
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.student-dashboard-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-dashboard-absent-days {
+  /* background-color: rgb(228, 109, 109); */
+  background-color: rgba(237, 177, 177, 0.779);
+  border: 2px solid black;
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  align-items: center;
+  flex-direction: column;
+}
+
+.student-dashboard-accepted-days {
+  background-color: rgb(240, 250, 200);
+  border: 2px solid black;
+  width: 30vw;
+  height: 20vh;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 58px;
+}
+
+@media (max-width: 720px) {
+  .student-dashboard-container {
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .student-dashboard-attendance {
+    width: 100vw;
+  }
+  .student-dashboard-present-days {
+    width: 40vw;
+  }
+
+  .student-dashboard-absent-days {
+    width: 40vw;
+  }
+  .student-dashboard-absent-days h1 {
+    font-size: medium;
+  }
+  .student-dashboard-present-days h1 {
+    font-size: medium;
+  }
+  .student-dashboard-accepted-days h1 {
+    font-size: medium;
+  }
+}
+.student-dashboard-status-header {
+  width: 70vw;
+  height: 50px;
+  background-color: rgba(231, 231, 231, 0.69);
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+.student-dashboard-status-header h3 {
+  margin-left: 50px;
+  color: black;
+}
+.student-dashboard-status {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(195, 189, 189);
+  border-radius: 20px;
+  /* float: ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45vw;
+}
+
+.verified {
+  background-color: rgb(254, 218, 36);
+}
+.student-dashboard-status {
+  /* background-color: rgb(209, 167, 239); */
+  background-color: rgb(157, 240, 165);
+}
